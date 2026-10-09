@@ -4,5 +4,11 @@
 
 h1{
     color:rgb(212, 28, 28);
+}
+h1:hover{
+    color: firebrick
+}
 
+body{
+    align-items: center;
 }
