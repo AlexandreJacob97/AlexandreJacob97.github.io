@@ -1,6 +1,6 @@
 name: Olá mundo cruel # nome da action
 
-#Gatilho, quando a action vai rodar 
+# Gatilho, quando a action vai rodar 
 on: 
   push: 
     branches: ['main']
