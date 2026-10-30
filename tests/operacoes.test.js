@@ -1,4 +1,4 @@
-const { somar, subtrair, multiplicar, dividir } = require("../src/operacoes");
+const { somar, subtrair, multiplicar, dividir , potencia } = require("../src/operacoes");
 
 describe("operações matemáticas", () => {
     test("soma dois números", () => {
@@ -19,5 +19,8 @@ describe("operações matemáticas", () => {
 
     test("lança um erro ao dividir por zero", () => {
         expect(() => dividir(10, 0)).toThrow(RangeError);
+    });
+     test("calcula a potência de um número com o outro", () => {
+        expect(potencia(2, 3)).toBe(8);
     });
 });
