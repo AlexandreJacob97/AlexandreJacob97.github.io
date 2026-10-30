@@ -1,4 +1,4 @@
-const { somar, subtrair, multiplicar, dividir } = require("../src/operacoes");
+const { somar, subtrair, multiplicar, dividir , potencia } = require("../src/operacoes");
 
 describe("operações matemáticas", () => {
     test("soma dois números", () => {
