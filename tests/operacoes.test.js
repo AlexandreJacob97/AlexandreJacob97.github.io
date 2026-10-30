@@ -21,6 +21,6 @@ describe("operações matemáticas", () => {
         expect(() => dividir(10, 0)).toThrow(RangeError);
     });
      test("calcula a potência de um número com o outro", () => {
-        expect(potencia(2, 3)).toBe(9);
+        expect(potencia(2, 3)).toBe(8);
     });
 });
